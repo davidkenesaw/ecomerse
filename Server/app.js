@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../Client')));//show express the Cl
 
 
 app.get("/", (req, res) => {
-    res.send("Hello");
+    res.render("test");
 })
 
 app.listen(3000, ()=> {
