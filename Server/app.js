@@ -4,7 +4,7 @@ require('dotenv').config({
 })
 const express = require("express");
 
-//configre express app
+//configure express app
 const app = express();
 app.set('view engine', 'ejs');//use ejs
 app.use(express.urlencoded({ extended: true }));
