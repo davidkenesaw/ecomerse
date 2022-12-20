@@ -1,0 +1,32 @@
+{
+  "name": "ecomerse",
+  "version": "1.0.0",
+  "description": "vegan cookies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkenesaw/ecomerse.git"
+  },
+  "author": "David VanAsselberg, Aaron JoeStar, William Daza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidkenesaw/ecomerse/issues"
+  },
+  "homepage": "https://github.com/davidkenesaw/ecomerse#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "jquery": "^3.6.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2"
+  }
+}
