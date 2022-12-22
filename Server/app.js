@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 const path = require('path')
 require('dotenv').config({
     path: path.resolve(__dirname, '../.env')
@@ -12,7 +14,7 @@ app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')))//add bootsrap javascript
 app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist')))//add bootsrap jquery
 app.set('views', path.join(__dirname, '../Client/views'));//show express the views directory
-app.use(express.static(path.join(__dirname, '../Client')));//show express the Client directory
+app.use(express.static(path.join(__dirname , '../Client/views')));//show express the Client directory
 //app.use(seshOption)//configuration for express session
 
 
