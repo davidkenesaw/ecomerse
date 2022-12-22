@@ -16,6 +16,7 @@ app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist')))
 app.set('views', path.join(__dirname, '../Client/views'));//show express the views directory
 app.use(express.static(path.join(__dirname , '../Client/views')));//show express the Client directory
 //app.use(seshOption)//configuration for express session
+//app.use(express.static(path.join(__dirname , '../Client/views/styles')));//show express the Client directory//
 
 
 app.get("/", (req, res) => {

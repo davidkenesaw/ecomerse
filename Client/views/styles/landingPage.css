@@ -1,0 +1,9 @@
+.main{
+    background-size: cover;
+    height: 80vh;
+    background:url(/assets/AdobeStock_398481562.jpeg)no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
