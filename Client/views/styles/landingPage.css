@@ -7,3 +7,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+#icon{
+    padding-right: 10px;
+}
