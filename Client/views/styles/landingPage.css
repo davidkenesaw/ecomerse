@@ -34,5 +34,11 @@
     font-family: 'Hanken Grotesk', sans-serif; 
 }
 
+#message-icon{
+    padding-top:15px;
+}
 
+.new img{
+    padding: 10px;
+}
 
