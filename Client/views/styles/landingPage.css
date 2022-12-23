@@ -1,13 +1,38 @@
 .main{
     background-size: cover;
     height: 80vh;
-    background:url(/assets/AdobeStock_398481562.jpeg)no-repeat center fixed;
+    background:url(/assets/welcomebannercookies.png)no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.main h1{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.main h4{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
 #icon{
     padding-right: 10px;
 }
+
+.search{
+    height: 40px;
+    width: 160px;
+    border-radius: 60px;
+}
+
+.nav-item a{
+    font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+
+
