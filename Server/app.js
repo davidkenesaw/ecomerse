@@ -20,7 +20,10 @@ app.use(express.static(path.join(__dirname , '../Client/views')));//show express
 
 
 app.get("/", (req, res) => {
-    res.render("test");
+    res.render("HomePage");
+})
+app.get("/about", (req, res) => {
+    res.render("about");
 })
 
 app.listen(3000, ()=> {
