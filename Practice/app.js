@@ -20,8 +20,25 @@ app.use(express.static(path.join(__dirname , '../Client/views')));//show express
 
 
 app.get("/", (req, res) => {
-    res.render("passwordTRAINING");
+    const error = "";
+    res.render("passwordTRAINING",{error});
 })
+app.get("/success", (req, res) => {
+    res.render("success");
+})
+
+app.post("/login",function(req, res){
+    const value = "abc123"
+
+    const password = req.body.Password;
+
+    if(password == value){
+        return res.render("success")
+    }else{
+        const error = "your stupid and cant swim"
+        return res.render("passwordTRAINING",{error})
+    }
+});
 
 app.listen(3000, ()=> {
     console.log("Server started on port 3000");
