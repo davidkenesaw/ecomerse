@@ -16,7 +16,7 @@
 
 .main h4{
     font-family: 'Hanken Grotesk', sans-serif;
-    color: white;
+    color:#f8f9fa;
     padding-left: 10px;
 }
 
@@ -38,3 +38,6 @@
     padding: 10px;
 }
 
+.iconContainer{
+    padding-left: 90px;
+}
