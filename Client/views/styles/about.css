@@ -1,0 +1,30 @@
+.nav-item a{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#icon{
+    padding-right: 10px;
+}
+
+h1{
+    font-family: 'Hanken Grotesk', sans-serif; 
+    text-align: center; 
+}
+
+p{
+    text-align: center;
+}
+
+footer{
+    background:black;
+    ;
+}
+
+.icon{
+    color: white;
+}
+
+#customLetter{
+    font-weight: bold;
+}
+
